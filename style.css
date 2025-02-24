@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://cdn.create.vista.com/api/media/medium/176443446/stock-photo-top-view-calculator-pen-black-background?token=);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 250px;
+    height: 450px;
+    background-color: black;
+    color: white;
+    padding: 0 10px;
+    border-radius: 30px;
+    border: 6px solid #CED2D7;
+}
+.icons{
+    display: flex;
+    margin: auto;
+    height: 27px;
+    
+    width: 90%;
+}
+.icons-middle{
+    background-color: #1E1E1FBB;
+    width: 60%;
+    height: 18px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+.icons-left{
+    width: 20%;
+    font-size: 8px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.icons-right{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 20%;
+}
+.icons-right i{
+    font-size: 8px;
+}
+.input input{
+    width: 100%;
+    height: 130px;
+    font-size: 50px;
+    border: none;
+    font-weight: 200;
+    padding-top: 90px;
+    padding-right: 10px;
+    background-color: black;
+    color: white;
+
+}
+.buttons{
+    background-color: black;
+    width: 100%;
+    height: 250px;
+    margin-bottom: 10px;
+}
+.button-row{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+.button-row button{
+    width: 43px;
+    height: 43px;
+    font-weight: 500;
+    font-size: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: none;
+
+}
+.grey{
+    background-color: grey;
+}
+.orange{
+    background-color: orange;
+    color: white;
+}
+.dark-grey{
+    background-color: #3f3e42;
+    color: white;
+}
+.end{
+    width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    height: 40px;
+}
+.end hr{
+    width: 50%;    border: 1px solid white;
+}
