@@ -26,34 +26,34 @@
 
             <div class="buttons">
                 <div class="button-row">
-                    <button class="grey" onclick="">C</button>
+                    <button class="grey" onclick= "cls()">C</button>
                     <button class="grey" onclick="">+/-</button>
-                    <button class="grey" onclick="">%</button>
-                    <button class="orange" onclick="">/</button>
+                    <button class="grey" onclick="buttnClick('%')">%</button>
+                    <button class="orange" onclick="buttnClick('/')">/</button>
                 </div>
                 <div class="button-row">
-                    <button class="dark-grey" onclick="">7</button>
-                    <button class="dark-grey" onclick="">8</button>
-                    <button class="dark-grey" onclick="">9</button>
-                    <button class="orange" onclick="">X</button>
+                    <button class="dark-grey" onclick="buttnClick('7')">7</button>
+                    <button class="dark-grey" onclick="buttnClick('8')">8</button>
+                    <button class="dark-grey" onclick="buttnClick('9')">9</button>
+                    <button class="orange" onclick="buttnClick('*')">X</button>
                 </div>
                 <div class="button-row">
-                    <button class="dark-grey" onclick="">4</button>
-                    <button class="dark-grey" onclick="">5</button>
-                    <button class="dark-grey" onclick="">6</button>
-                    <button class="orange" onclick="">-</button>
+                    <button class="dark-grey" onclick="buttnClick('4')">4</button>
+                    <button class="dark-grey" onclick="buttnClick('5')">5</button>
+                    <button class="dark-grey" onclick="buttnClick('6')">6</button>
+                    <button class="orange" onclick="buttnClick('-')">-</button>
                 </div>
                 <div class="button-row">
-                    <button class="dark-grey" onclick="">3</button>
-                    <button class="dark-grey" onclick="">2</button>
-                    <button class="dark-grey" onclick="">1</button>
-                    <button class="orange" onclick="">+</button>
+                    <button class="dark-grey" onclick="buttnClick('3')">3</button>
+                    <button class="dark-grey" onclick="buttnClick('2')">2</button>
+                    <button class="dark-grey" onclick="buttnClick('1')">1</button>
+                    <button class="orange" onclick="buttnClick('+')">+</button>
                 </div>
                 <div class="button-row">
-                    <button class="dark-grey" onclick="">0</button>
-                    <button class="dark-grey" onclick="">E</button>
-                    <button class="dark-grey" onclick="">.</button>
-                    <button class="orange" onclick="">=</button>
+                    <button class="dark-grey" onclick="buttnClick('0')">0</button>
+                    <button class="dark-grey" onclick="erase()"><i class="fa-solid fa-delete-left"></i></button>
+                    <button class="dark-grey" onclick="buttnClick('.')">.</button>
+                    <button class="orange" onclick="equals()">=</button>
                 </div>
             </div>
             <div class="end">
@@ -61,6 +61,8 @@
             </div>
         </div>
     </div>
+
+    <script src="./app.js"></script>
     
 </body>
 </html>
